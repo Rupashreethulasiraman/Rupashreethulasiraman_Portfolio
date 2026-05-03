@@ -50,13 +50,16 @@ const ProjectCard = ({ project }) => {
           </ul>
         )}
         
-        <a href={project.link || "#"} className="project-link" target="_blank" rel="noreferrer">
-          <span className="link-text">View Project</span>
-          <svg className="link-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-            <polyline points="12 5 19 12 12 19"></polyline>
-          </svg>
-        </a>
+        {/* FIX: Only show the link button IF a link exists in the JSON */}
+        {project.link && (
+          <a href={project.link} className="project-link" target="_blank" rel="noreferrer">
+            <span className="link-text">View Project</span>
+            <svg className="link-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        )}
       </div>
     </div>
   );
