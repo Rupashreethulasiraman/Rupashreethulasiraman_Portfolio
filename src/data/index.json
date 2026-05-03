@@ -1,0 +1,102 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "title": "Front-End",
+      "description": " Lorem ipsium doloryghj ygfjl hgjlkl hjkkkll hgjhkkk nghjn u,hjkjkjjkg gjmhjjkkj ghjjk"
+    },
+    {
+      "id": "2",
+      "title": "Back-End",
+      "description": " Lorem ipsium doloryghj ygfjl hgjlkl hjkkkll hgjhkkk nghjn u,hjkjkjjkg gjmhjjkkj ghjjk"
+    },
+    {
+      "id": "3",
+      "title": "UI & UX Design",
+      "description": " Lorem ipsium doloryghj ygfjl hgjlkl hjkkkll hgjhkkk nghjn u,hjkjkjjkg gjmhjjkkj ghjjk"
+    },
+    {
+      "id": "4",
+      "title": "Web Development",
+      "description": " Lorem ipsium doloryghj ygfjl hgjlkl hjkkkll hgjhkkk nghjn u,hjkjkjjkg gjmhjjkkj ghjjk"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Novaport",
+      "category": "AI / Full Stack",
+      "year": "2026",
+      "description": "Built an AI-powered full-stack platform using Google Gemini API and NLP for automated HS Code classification and regulatory compliance.",
+      "bullets": [
+        "Developed a backend using Python and FastAPI to handle document uploads, extract key data, and perform real-time AI analysis.",
+        "Integrated the frontend and the backend via REST APIs and improved the platform's overall speed by 40%.",
+        "Improved AI prompts and added strict validation rules to ensure accurate and reliable outputs."
+      ],
+      "link": "https://novaport-ai.vercel.app/",
+      "images": [
+        "./img/novaport-1.jpg",
+        "./img/novaport-2.jpg",
+        "./img/novaport-3.jpg",
+        "./img/novaport-4.jpg"
+      ]
+    },
+    {
+      "title": "E-Kalavya",
+      "category": "EdTech / Full Stack",
+      "year": "2026",
+      "description": "An online Education Platform built with Next.js, Firebase, Tailwind CSS, and Vercel.",
+      "bullets": [
+        "Created and developed an online EdTech platform for enrolling in and finding courses.",
+        "Integrated wallet-based payments, Firebase authentication, and a Firestore backend.",
+        "Implemented a production-ready, fully responsive application deployed on Vercel."
+      ],
+      "link": "https://github.com/Rupashreethulasiraman/E-kalavya",
+      "images": [
+        "./img/ekalavya-1.jpg",
+        "./img/ekalavya-2.jpg",
+        "./img/ekalavya-3.jpg",
+        "./img/ekalavya-4.jpg"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Actively Seeking Opportunities",
+      "company": "Full Stack / Software Engineering",
+      "date": "April 2026 - Present",
+      "description": "Currently looking for full-time roles or internships where I can leverage my expertise in full-stack development, React, and robust backend engineering to build impactful, scalable solutions.",
+      "tech": [
+        "Available to Work",
+        "Open to Relocation",
+        "Immediate Joiner"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Full Stack Developer Intern",
+      "company": "IRAIRF",
+      "date": "November 2025 – March 2026",
+      "description": "Developed responsive and user-friendly web applications using HTML, CSS, JavaScript, and React. Built and integrated backend services to handle data processing and APIs, and implemented Firebase for secure authentication and real-time database management.",
+      "tech": [
+        "React",
+        "JavaScript",
+        "Firebase",
+        "APIs"
+      ]
+    },
+    {
+      "id": 3,
+      "role": "IOT Intern",
+      "company": "TS Robotics",
+      "date": "June 2025 - July 2025",
+      "description": "Worked on both hardware and software components of IoT systems, testing sensor-based automation projects. Developed prototypes using Arduino and NodeMCU for real-time data monitoring, and collaborated with the startup's core team to build and maintain the company website.",
+      "tech": [
+        "IoT",
+        "Arduino",
+        "NodeMCU",
+        "Web Development"
+      ]
+    }
+  ]
+}
